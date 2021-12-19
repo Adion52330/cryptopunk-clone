@@ -1,0 +1,120 @@
+.main {
+  max-height: 50vh;
+  width: 100%;
+}
+
+.mainContent {
+  display: flex;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.punkHighlight {
+  flex: 0.25;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.punkContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.punkDetails {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  flex: 0.75;
+  width: 100%;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* flex: 0.25; */
+  width: 100%;
+}
+
+.selectedPunk {
+  object-fit: contain;
+  max-width: min(30vw, 40vh);
+  max-height: 30vw;
+}
+
+.title {
+  font-size: 96px;
+  font-weight: 800;
+}
+
+.owner {
+  display: flex;
+  margin: 10px 0;
+  height: 50px;
+}
+
+.owner > div {
+  margin: 0 5px;
+}
+
+.ownerImageContainer {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.ownerImageContainer > img {
+  width: 100%;
+  height: 100%;
+}
+
+.needs {
+  display: flex;
+  align-items: center;
+}
+
+.ownerDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* flex: 1; */
+}
+
+.ownerName {
+  flex: 1;
+}
+
+.handle {
+  color: #00ebfe;
+}
+
+.ownerLink {
+  padding: 12px;
+  border-radius: 50px;
+  width: 50px;
+  border: 1px solid #fff;
+  margin: 0 0 0 10px;
+  height: 50px;
+}
+
+.ownerLink > img {
+  width: 100%;
+  height: 100%;
+}
+
+.itemNum {
+  color: #a1a5b0;
+  font-size: 72px;
+  align-self: center;
+}
